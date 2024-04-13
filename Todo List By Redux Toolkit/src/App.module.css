@@ -1,0 +1,9 @@
+.primary_heading {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 42px;
+  font-family: sans-serif;
+  color: #2f3131;
+  font-weight: 600;
+}

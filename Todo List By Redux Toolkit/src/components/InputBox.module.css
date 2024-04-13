@@ -1,0 +1,40 @@
+.input_container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_container > input {
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid #999;
+  height: 1.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.input_container > input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(000, 0.1);
+  border-bottom: 2px solid #345a39;
+}
+
+.input_container > input:focus:invalid {
+  border-bottom: 2px solid #a85020;
+}
+
+.input_container > button {
+  background-color: #345a39;
+  height: 2.5rem;
+  padding: 0 1rem;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.input_container > button:hover {
+  background-color: #254129;
+}
