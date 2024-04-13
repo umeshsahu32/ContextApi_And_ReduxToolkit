@@ -8,8 +8,8 @@ const Product = ({ prod }) => {
   const cart = useSelector((state) => state.cart.cart);
 
   const dispatch = useDispatch();
-
-  // ! ADD PRODUCT INTO THE CART
+T
+  // ! ADD PRODUCT INTO THE CARTT
   const addProductIntoTheCart = (prod) => {
     dispatch(ADD_TO_CART(prod));
   };
