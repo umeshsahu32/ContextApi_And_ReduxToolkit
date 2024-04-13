@@ -9,7 +9,7 @@ const Filter = () => {
     productState: { byStock, byFastDelivery, sort, byRating },
   } = CartState();
 
-  // make state for rating
+  
 
   return (
     <div className={styles.filters}>
